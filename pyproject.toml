@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dynastai"
+version = "0.1.0"
+description = "A simulation framework for decision-based strategy games"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "certifi",
+    "charset-normalizer",
+    "dotenv",
+    "idna",
+    "markdown-it-py",
+    "mdurl",
+    "pygments",
+    "python-dotenv",
+    "Pillow",
+    "requests",
+    "rich",
+    "simple-term-menu",
+    "urllib3",
+    "pandas",
+    "matplotlib",
+    "seaborn",
+    "tqdm",
+    "weave"
+]
+
+[tool.setuptools]
+packages = ["simulation"]
+
+[tool.setuptools.package-data]
+simulation = ["../cards/*", "../ascii/*"]
+
+[project.scripts]
+dynastai = "simulation.main:main"
