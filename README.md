@@ -2,6 +2,8 @@
 
 ## Overview
 
+> Note: This is a Demo version of DynastAI which was created as an early POC. The new version will be located at [DynastAI](https://github.com/torinvdb/DynastAI).
+
 DynastAI is a narrative kingdom management simulation inspired by the popular game Reigns. As the ruler of a medieval kingdom, you'll face a series of decisions presented by various characters from your realm. Each choice you make will shape your kingdom's future and affect your relationship with four crucial metrics: Piety, Stability, Power, and Wealth.
 
 The game presents an engaging storytelling experience where your decisions have meaningful consequences. Will you be remembered as a benevolent ruler, a tyrant, or perhaps something in between? Your legacy is in your hands.
